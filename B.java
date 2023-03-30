@@ -15,3 +15,4 @@ class B{
         C x = new C();
     }
 }
+
