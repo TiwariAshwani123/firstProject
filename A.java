@@ -1,12 +1,31 @@
-class A{
-    A(){
-        System.out.println("Ash  ");
+
+
+
+class Employee {
+    String name;
+    int salary;
+
+    void showInfo() {
+        System.out.println(name);
+        System.out.println(salary);
     }
 
-    public static void main(String[] args ){
-        A x  = new A();
+    
+    
+    public static void main(String[] args) {
         
-    }
-}
+        Employee e1 = new Employee();
+        Employee e2 = new Employee();
 
-// Constructor can automatically invoked(call).
+        e1.name = "Golu Prasad";
+        e1.salary = 23000;
+        
+        e2.name = "mohan singh";
+        e2.salary = 34000;        
+        
+        e1.showInfo();
+        e2.showInfo();
+    }
+
+   
+}
