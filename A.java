@@ -6,7 +6,7 @@ class Employee {
     int salary;
 
     void showInfo() {
-        System.out.println(name);
+        System.out.println(name  );
         System.out.println(salary);
     }
 
